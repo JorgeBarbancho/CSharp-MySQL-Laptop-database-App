@@ -9,10 +9,10 @@ namespace EAC2Ex3
 {
     public partial class laptopViewer : Form
     {
-        private static readonly String HOST = "localhost";
-        private static readonly String BD = "m07eac2";
-        private static readonly String USER = "jorge";
-        private static readonly String PASSWORD = "jorge";
+        private static readonly String HOST = "";
+        private static readonly String BD = "";
+        private static readonly String USER = "";
+        private static readonly String PASSWORD = "";
         private static readonly String connectionString = "Server=" + HOST + ";Database=" + BD + ";Uid=" + USER + ";Pwd=" + PASSWORD + ";";
         MySqlConnection conn = new MySqlConnection(connectionString);
 
